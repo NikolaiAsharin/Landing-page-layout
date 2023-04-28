@@ -505,8 +505,8 @@ body * {
    align-items: center;
  }
  .box-section4-form {
-   /* background-image: url("png/image\ 6.1.png"); */
-   background-color: aqua;
+   background-image: url("png/image\ 6.1.png");
+   
    background-size: cover;
    width: 1006px;
    height: 500px;
