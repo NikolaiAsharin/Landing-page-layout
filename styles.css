@@ -10,18 +10,14 @@
    src: url("font/YesevaOne/YesevaOne-Regular.ttf");
    font-family:"YesevaOne-Regular, Arial, Helvetica, sans-serif";
 }
-@media (max-width: 768px) {
-   nav,  .text-section2-aside-box2 {
-   display: none;
-   }
-}
 body {
    margin:0; 
    font-family:"NunitoSans-Regular, Arial, Helvetica, sans-serif";  
 }
 body * {
    box-sizing: border-box;
-}  
+} 
+ 
 .header-navigation {
    display: flex; list-style: none; 
 }
@@ -100,7 +96,6 @@ body * {
 }
 .container1 {
    padding: 194px 0 0 32px;
-   height: 707px;
 }
 .subtitle {
    margin: 0;
@@ -253,11 +248,17 @@ body * {
    padding-top: 107px;
 }
 .text-section2-aside {
-   margin-top: 69px;
+   /* margin-top: 69px; */
    width: 442px;
+}
+.text-section2-aside-box {
+   margin-top: 69px;
 }
 .img-section2 {
    margin-left: 50px;
+}
+.slider {
+   width: 100%;
 }
 .text-title-h2 {
    font-family:'NunitoSans-Regular, Arial, Helvetica, sans-serif';
@@ -346,7 +347,7 @@ body * {
    margin: 31px 223px 0 223px;
 }
 .ellipse-img-section3-jpg {
-   background-image: url("png/Ellipse.png");
+   background-image: url("svg/ellipse.svg");
    width: 145px;
    height: 145px; 
 }
@@ -939,6 +940,78 @@ body * {
 }
 .footer-content {
    height: 133px;
+}
+@media (max-width: 768px) {
+   nav,  .text-section2-aside-box2, .navigation-section2, 
+   .button-nav, .box-section4-form, .section6, .footer-content {
+   display: none;
+   }
+   .header-content, .container {
+      margin: 0 18px;
+      max-width: 100%;
+   }
+   .container1 {
+      padding:  194px 0 61px 0;
+   }
+   .button-section1 {
+      display: block;
+      margin: 32px auto 26px auto;
+      max-width: 339px;
+      width: 100%;
+   }
+   .button-section1-1 {
+      display: block;
+      margin: 0 auto;
+      max-width: 339px;
+      width: 100%;
+   }
+   .subtitle, .title-1 {
+      font-size: 23px;
+      line-height: 132.83%;
+   }
+   .text-1 {
+      font-size: 14px;
+       line-height: 135.84%;
+   }
+   .img-section2 {
+      margin: 0;
+   }
+   .section1 {
+      height: auto;
+   }
+   .text-section2 {
+      flex-direction: column;
+     padding: 0;
+    
+   }
+   .text-section2-aside {
+      margin-top: 36px;
+      width: 100%;
+   }
+   .text-section2-aside-box {
+      text-align: center;
+    
+   }
+   .section2 {
+      height: auto;
+   }
+   .section3 {
+      background: #131313;
+      margin-top: 0;
+   } 
+   .title-h3-section3 {
+      padding-top: 58px;
+      font-size: 22px;
+      line-height: 138.6%;
+      margin-bottom: 20px;
+   }
+   .img-section3-jpg {
+      margin: 41px auto 0 auto;
+      width: 100%;
+      height: 100%;
+   }
+  
+
 }
 
 
