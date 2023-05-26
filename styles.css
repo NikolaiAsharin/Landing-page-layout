@@ -244,21 +244,30 @@ body * {
 }
 
 .text-section2 {
-   display:flex;
+   /* display:flex; */
    padding-top: 107px;
 }
-.text-section2-aside {
-   /* margin-top: 69px; */
+/* .text-section2-aside {
+   margin-top: 69px;
    width: 442px;
-}
+   
+} */
 .text-section2-aside-box {
    margin-top: 69px;
+   width: 442px;
 }
 .img-section2 {
-   margin-left: 50px;
+   /* margin-left: 50px; */
+   position: relative;
+   top: -559px;
+   left: 492px;
 }
 .slider {
-   width: 100%;
+   width: 679px;
+   height: 482px;
+   background: url("images/image\ 2.1.jpg");
+   background-size: cover;
+   
 }
 .text-title-h2 {
    font-family:'NunitoSans-Regular, Arial, Helvetica, sans-serif';
@@ -288,7 +297,6 @@ body * {
    margin-top: 42px;
    width: 403px;
    height: 162px;
-   
 }
 .text-title-h3-padding{
    margin: 9px 0 55px 0 ;
@@ -340,26 +348,17 @@ body * {
    justify-content: center;
 }
 .img-section3-jpg {
-   background-image: url("images/image\ 6.jpg");
+   background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/image\ 6.jpg");
    background-size: cover;
    height: 434px;
    width: 817px;
    margin: 31px 223px 0 223px;
 }
-.ellipse-img-section3-jpg {
-   background-image: url("svg/ellipse.svg");
-   width: 145px;
-   height: 145px; 
-}
 .Polygon-ellipse-img-section3-jpg {
-   background-image: url("png/Polygon.png");
-   width: 28px;
-   height: 28px;
-   background-size: cover;
-   margin:55px 60px
+   width: 145px;
+   height:145px;
 }
 .section3-overlay {
-  background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
   display: flex;
@@ -435,6 +434,7 @@ body * {
    font-size: 14px;
    line-height: 163.68%;
    color: #181818;
+   margin-left: 8px;
  }
  .first-checkbox {
    margin-top: 33px;
@@ -576,6 +576,9 @@ body * {
    color: rgba(255, 255, 255, 0.5);
    margin: 0;
 } 
+.label-input-on-black-phone {
+   padding-top: 0;
+}
 .input-on-black-Phone {
    margin: 48px 0;
 }
@@ -893,7 +896,7 @@ body * {
 .button-form-questions {
    width: 200px;
    height: 51px;
-   margin: 15px 0 0 160px;
+   margin: 51px 0 0 160px;
 }
 .section7 {
    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("images/image 7.2.jpg");
@@ -940,78 +943,6 @@ body * {
 }
 .footer-content {
    height: 133px;
-}
-@media (max-width: 768px) {
-   nav,  .text-section2-aside-box2, .navigation-section2, 
-   .button-nav, .box-section4-form, .section6, .footer-content {
-   display: none;
-   }
-   .header-content, .container {
-      margin: 0 18px;
-      max-width: 100%;
-   }
-   .container1 {
-      padding:  194px 0 61px 0;
-   }
-   .button-section1 {
-      display: block;
-      margin: 32px auto 26px auto;
-      max-width: 339px;
-      width: 100%;
-   }
-   .button-section1-1 {
-      display: block;
-      margin: 0 auto;
-      max-width: 339px;
-      width: 100%;
-   }
-   .subtitle, .title-1 {
-      font-size: 23px;
-      line-height: 132.83%;
-   }
-   .text-1 {
-      font-size: 14px;
-       line-height: 135.84%;
-   }
-   .img-section2 {
-      margin: 0;
-   }
-   .section1 {
-      height: auto;
-   }
-   .text-section2 {
-      flex-direction: column;
-     padding: 0;
-    
-   }
-   .text-section2-aside {
-      margin-top: 36px;
-      width: 100%;
-   }
-   .text-section2-aside-box {
-      text-align: center;
-    
-   }
-   .section2 {
-      height: auto;
-   }
-   .section3 {
-      background: #131313;
-      margin-top: 0;
-   } 
-   .title-h3-section3 {
-      padding-top: 58px;
-      font-size: 22px;
-      line-height: 138.6%;
-      margin-bottom: 20px;
-   }
-   .img-section3-jpg {
-      margin: 41px auto 0 auto;
-      width: 100%;
-      height: 100%;
-   }
-  
-
 }
 
 

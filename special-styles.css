@@ -1,0 +1,340 @@
+@media (max-width: 768px) {
+    nav, .text-section2-aside-box2, .navigation-section2, 
+   .button-nav, .box-section4-form, .section6, .footer-content, .text-title-h3-section3 > br,
+   .text-title-h2 > br, .photo-types-of-design, .navigation-types-of-design, .title-address-phone > br, .text-checkbox-on-black > br {
+    display: none;
+     }
+   
+   .header-content, .container {
+      margin: 0 18px;
+      max-width: 100%;
+   }
+   .container1 {
+      padding:  194px 0 61px 0;
+   }
+   .button-section1 {
+      display: block;
+      margin: 32px auto 26px auto;
+      max-width: 339px;
+      width: 100%;
+   }
+   .button-section1-1 {
+      display: block;
+      margin: 0 auto;
+      max-width: 339px;
+      width: 100%;
+   }
+   .subtitle, .title-1 {
+      font-size: 23px;
+      line-height: 132.83%;
+   }
+   .text-1 {
+      font-size: 14px;
+       line-height: 135.84%;
+   }
+   .section1 {
+      height: auto;
+   }
+   .text-section2-aside {
+      margin-top: 36px;
+      width: 100%;
+      text-align: center;
+
+   }
+
+   .section2 {
+      height: auto;
+   }
+   .section3 {
+      background: #131313;
+      margin-top: 0;
+   } 
+   .title-h3-section3 {
+      padding-top: 58px;
+      font-size: 22px;
+      line-height: 138.6%;
+      margin-bottom: 20px;
+   }
+   .img-section3-jpg {
+      margin: 41px auto 0 auto;
+      width: 100%;
+      height: 0;
+      position: relative;
+      padding-top: 53%;
+   }
+   .section3-overlay {
+      position: absolute;
+      inset: 0;
+   }
+   .Polygon-ellipse-img-section3-jpg {
+      width: 97px;
+      height: 97px;
+   }
+   .text-title-h3-section3 {
+      font-size: 11px;
+      line-height: 169.8%;
+      /* or 19px */
+      color: #FFFFFF;
+      margin-top: 22px;
+   }
+   .form-section3 {
+      flex-direction: column;
+      margin-top: 61px;
+   }
+   .label-input {
+      color: rgba(255, 255, 255, 0.5); 
+   }
+   .input {
+      background: #131313;
+   }
+   .input::placeholder {
+      font-size: 14px;
+      line-height: 138.72%;
+      /* or 19px */
+      color: #FFFFFF; 
+   }  
+ .box2-form {
+   margin: 63px 0 0 0;
+
+ }
+ .input-container {
+   width: 100%;
+   border: 1px solid #FFFFFF;
+ }
+ .text-checkbox {
+   color: #FFFFFF;
+ }
+ .first-checkbox {
+   position: inherit;
+   margin-top: 27px;
+ }
+ .button-form-section3 {
+   margin: auto;
+   max-width: 340px;
+   width: 100%;
+   display: block;
+   height: 51px;
+   padding: 0;
+   position: relative;
+   top:25.5px;
+ }
+ .text-section2 {
+   display: grid;
+   grid-template-areas:
+   "title"
+   "slider"
+   "description";
+   padding: 0;
+ }
+ .text-section2-aside-box {
+   grid-area: title;
+   margin-top: 39px;
+   text-align: center;
+   width: 100%;
+ }
+ .text-section2-aside-box1 {
+   grid-area: description;
+   max-width: 403px;
+   width: 100%;
+   margin-top: 37px;
+   height: 145px;
+ }
+ .slider {
+   grid-area: slider;
+   width: 100%;
+   padding-top: 73%;
+   position: relative;
+   height: auto;
+ }
+ .img-section2 {
+   /* display: inherit; */
+   inset: 0;
+}
+.slider-button {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 14px;
+   position: absolute;
+   inset: 0;
+}
+.slider-button-right {
+   background-image: url("png/button\ right.png");
+   background-size: cover;
+   width: 44px;
+   height: 44px;
+}
+.slider-button-left {
+  background-image: url("png/button\ left.png");
+  background-size: cover;
+  width: 44px;
+  height: 44px;
+}
+.title {
+   font-size: 22px;
+   line-height: 138.6%;
+    /* or 30px */
+}
+.text-title-h2 {
+   font-size: 11px;
+   line-height: 158.48%;
+   /* or 17px */
+   margin: 22px 0 70px 0;
+}
+.title-h3 {
+   font-size: 14px;
+   line-height: 138.6%;
+   /* identical to box height, or 19px */
+}
+.text-title-h3 {
+   font-size: 11px;
+   line-height: 135.84%;
+   /* or 15px */
+   margin-top:12px ;
+}
+.text-title-h3-padding {
+   margin: 12px 0 46px 0;
+   font-size: 11px;
+   line-height: 135.84%;
+   /* or 15px */
+}
+.box-section4-types {
+   flex-direction: column;
+}
+.box1-section4-img {
+   width: 100%;
+}
+.item-ul-box-section4 {
+   ine-height: 169.8%;
+/* or 22px */
+}
+.title-h3-section4-box1 {
+   font-size: 15px;
+   line-height: 138.6%;
+}
+.title-h3-section4-box1-price {
+   margin-left: 0;
+   font-size: 15px;
+   line-height: 138.6%;
+}
+.box1-section4 {
+   margin-bottom: 59px;
+}
+.box2-section4 {
+   margin-bottom: 59px;
+}
+.box-ul-section4 {
+   width: 80%;
+   margin: -142px 0 0;
+}
+.section5 {
+   background: white;
+   margin: 55px 0 -35%;
+   height: auto;
+}
+.container5 {
+   text-align: center;
+   display: block;
+}
+.types-of-design {
+   padding-top: 0;
+}
+.title-types-of-design {
+   margin-bottom: 32px;
+}
+.slider-section5 {
+   background-image: url("images/image\ 5.1.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 0;
+   background-image: url("images/image\ 5.1.jpg");
+   background-size: cover;
+   position: relative;
+   padding-top: 73%;
+}
+.section7 {
+   background: #131313;
+   height: auto;
+   padding-top: 35%;
+}
+.container7 {
+   display: grid;
+   grid-template-areas:
+   "questions"
+   "map"
+   "address-phone";
+}
+.questions {
+   grid-area: questions;
+   width: 100%;
+   margin-top: 52px;
+   position: static;
+   height: auto;
+   display: block;
+}
+.form-questions {
+   width: 100%;
+   height: auto;
+}
+.address-phone {
+   grid-area: address-phone;
+   margin: 0;
+}
+.map {
+  grid-area: map;
+  margin: 46px 0 0;
+  height: 0;
+  width: 100%;
+  padding-top: 49%;
+  background-size: cover;
+
+}
+.form-questions-title {
+  margin-top: 52px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.wrapper-form-questions1 {
+   margin-top: 52px;
+   width: 100%;
+   display: block;
+}
+.phone {
+   padding-top: 63px;
+}
+.input-container-questions {
+   width: 100%;
+}.input-container-questions2{
+   width: 100%;
+}
+.wrapper-form-questions2 {
+   margin-top: 63px;
+}
+.questions-checkbox {
+   margin: 22px 0 0;
+}
+
+.button-form-questions {
+   margin: 68px auto 0;
+   width: 100%;
+}
+.title-address-phone {
+   font-size: 18px;
+   line-height: 138.6%;
+   margin-top: 42px;
+}
+.logo-address-instagram {
+   margin: 24px 0 49px;
+   width: 99px;
+}
+.logo-address {
+   width: 39px;
+   height: 39px;
+}
+.logo-instagram {
+   width: 39px;
+   height: 39px;
+}
+
+}
+

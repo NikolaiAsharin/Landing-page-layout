@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="special-styles.css">
    <title> Верстка лендинга по макету</title>
   </head>
 
@@ -41,43 +42,45 @@
       <section class="section2">
          <div class="container">
             <div class="text-section2">
-               <div class="text-section2-aside">
                   <div class="text-section2-aside-box">
                     <h2 class="title">Completed<br>projects</h2>
                     <p class="text-title-h2">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br> market we have made happy more than 1000 families</p>
                   </div>
-                 <div class="text-section2-aside-box1">
-                  <div>
-                    <h3 class="title title-h3">City:</h3>
-                    <p class="text-title-h3">Rostov-on-Don<br>LCD admiral</p>
-                    <h3 class="title title-h3">Repair time:</h3>
-                    <p class="text-title-h3">3.5 months</p>
+                  <div class="text-section2-aside-box1">
+                     <div>
+                       <h3 class="title title-h3">City:</h3>
+                       <p class="text-title-h3">Rostov-on-Don<br>LCD admiral</p>
+                       <h3 class="title title-h3">Repair time:</h3>
+                       <p class="text-title-h3">3.5 months</p>
+                     </div>
+                     <div class="text-section2-aside-box1-1">
+                       <h3 class="title title-h3">apartment area:</h3>
+                       <p class="text-title-h3-padding">81 m2</p>
+                       <h3 class="title title-h3">Repair Cost:</h3>
+                       <p class="text-title-h3">Upon request</p>
+                     </div>
                   </div>
-                  <div class="text-section2-aside-box1-1">
-                    <h3 class="title title-h3">apartment area:</h3>
-                    <p class="text-title-h3-padding">81 m2</p>
-                    <h3 class="title title-h3">Repair Cost:</h3>
-                    <p class="text-title-h3">Upon request</p>
-                  </div>
-                 </div>
-                 <div class="text-section2-aside-box2">
-                  <div><img src="png/Group 1.png" alt="" ></div>
-                   <div class="point-Group">
-                    <div class="point"></div>
-                    <div class="point point-1"></div>
-                    <div class="point point-1"></div>
-                   </div>
-                    <div><img src="png/Group 2.png" alt="" ></div>
-                 </div>
-               </div>
-               <div class="img-section2">
+                  <div class="text-section2-aside-box2">
+                     <div><img src="png/Group 1.png" alt="" ></div>
+                      <div class="point-Group">
+                       <div class="point"></div>
+                       <div class="point point-1"></div>
+                       <div class="point point-1"></div>
+                      </div>
+                       <div><img src="png/Group 2.png" alt="" ></div>
+                    </div>
+                  <div class="img-section2">
                   <ul class="navigation-section2">
                      <li class="navigation-container2-item"><a href="#" class="link-section2">Rostov-on-Don, Admiral</a></li>
                      <li class="navigation-container2-item"><a href="#" class="link-section2">Sochi Thieves </a></li>
                      <li class="navigation-container2-item"><a href="#" class="link-section2">Rostov-on-Don Patriotic</a></li>
                   </ul>
                   <div class="slider">
-                     <img src="images/image 2.1.jpg" alt="">
+                     <!-- <img src="images/image 2.1.jpg" class="slider-img" alt=""> -->
+                     <div class="slider-button">
+                        <div class="slider-button-left"></div>
+                        <div class="slider-button-right"></div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -93,8 +96,7 @@
             <div class="img-section3-jpg">
                <div class="section3-overlay">
                  <div class="ellipse-img-section3-jpg">
-                    <div class="Polygon-ellipse-img-section3-jpg">
-                    </div>
+                    <img class="Polygon-ellipse-img-section3-jpg" src="svg/ellipse.svg" alt="">
                  </div>
                </div>
             </div>
@@ -114,8 +116,7 @@
                      <div class="first-checkbox">
                         <label class="label-checkbox">
                           <input type="checkbox" class="checkbox" >
-                          <span class="fake"></span>
-                          <span class="text-checkbox">I agree to the processing of personal data.</span>
+                          <span class="fake"></span> <span class="text-checkbox">I agree to the processing of personal data.</span>
                         </label>
                       </div>
                </div>
@@ -134,7 +135,7 @@
             </div>
             <div class="box-section4-types">
                <div class="box1-section4">
-                  <img src="images/image 1.jpg" alt="">
+                  <img src="images/image 1.jpg" alt="" class="box1-section4-img">
                   <div class="box-ul-section4">
                    <h3 class="title title-h3-section4-box1">
                      Redecorating
@@ -155,7 +156,7 @@
                   </div>
                </div>
                <div class="box2-section4">
-                  <img src="images/image 3.jpg" alt="">
+                  <img src="images/image 3.jpg" alt="" class="box1-section4-img">
                   <div class="box-ul-section4">
                    <h3 class="title title-h3-section4-box1">
                      Overhaul
@@ -176,7 +177,7 @@
                   </div>
                </div>
                <div class="box3-section4">
-                  <img src="images/image 2.jpg" alt="">
+                  <img src="images/image 2.jpg" alt="" class="box1-section4-img">
                   <div class="box-ul-section4">
                    <h3 class="title title-h3-section4-box1">
                      Designer Repair
@@ -245,13 +246,14 @@
                               <label class="label-checkbox">
                                 <input type="checkbox" class="checkbox" >
                                 <span class="fake fake-on-black"></span>
-                                <p class="text-checkbox-on-black">I agree to the processing of personal<br>data.</p>
+                                <p class="text-checkbox-on-black">I agree to the processing of personal data.</p>
                               </label>
-                            </div>
+                           </div>
                      </div>
                      <div>
-                        <button class="button button-form-section3-on-black">Call the measurer</button>
-                     </div>       
+                        <button class="button button-form-section3-on-black">Call the measurer
+                        </button>
+                     </div>     
                   </form>
                   <div class="pig">
                      <div class="pig-ellipse">
@@ -269,6 +271,12 @@
                <h2 class="title title-types-of-design">
                   We realize your<br>wildest fantasies
                </h2>
+               <div class="slider-section5">
+                  <div class="slider-button">
+                     <div class="slider-button-left"></div>
+                     <div class="slider-button-right"></div>
+                  </div>
+               </div>
                <ul class="navigation-types-of-design">
                   <li class="types-of-design-item"><a href="#" class="link-nav link-nav-section5">American classic</a></li>
                   <li class="types-of-design-item"><a href="#" class="link-nav link-nav-section5">Empire</a></li>
@@ -379,7 +387,7 @@
       </section>
 
       <section class="section7">
-         <div class="container">
+         <div class="container container7">
             <div class="questions">
                <form action="#" method="get" enctype="multipart/form-data" class="form-questions">
                   <p class="title title-h3-section6 form-questions-title">have any questions?</p>
@@ -390,7 +398,7 @@
                            <div class="input-container-questions"></div>
                      </div>
                      <div>
-                        <p class="label-input-on-black">Phone<br>
+                        <p class="label-input-on-black phone">Phone<br>
                            <input class="input-on-black" type="tel" placeholder="Your phone number:"></p>
                            <div class="input-container-questions"></div>
                      </div>
@@ -403,7 +411,7 @@
                            <label class="label-checkbox">
                              <input type="checkbox" class="checkbox" >
                              <span class="fake fake-on-black"></span>
-                             <p class="text-checkbox-on-black">I agree to the processing of personal<br>data.</p>
+                             <p class="text-checkbox-on-black">I agree to the processing of personal data.</p>
                            </label>
                         </div>
                   </div>
